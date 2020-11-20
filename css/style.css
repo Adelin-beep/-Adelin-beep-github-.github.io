@@ -1,6 +1,6 @@
 
 body {
-	background-image: url(../img/background.png);
+	background-image: url(../img/background.webp);
 	height: 100%;
 	background-position: center;
   	background-repeat: no-repeat;
@@ -17,7 +17,11 @@ h2 {
 h2:hover {
     color: rgb(250, 114, 99);
 }
-
+li {
+	display: inline-block;
+	color: black;
+	font-family: "Slabo", serif;
+}
 button {
 	background-color: whitesmoke;
 	display: block;
